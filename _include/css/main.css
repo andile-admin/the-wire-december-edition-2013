@@ -391,6 +391,62 @@ h3.spec {
 	padding-top: 30%;
 }
 
+.big-curve{
+	/*float: right;*/
+	color: #b4c6ee;
+	font-weight: bold;
+	font-size: 35px;
+	margin-right: 40%;
+	transform:scale(1,2); /* W3C */
+	-webkit-transform:scale(1,2); /* Safari and Chrome */
+	-moz-transform:scale(1,2); /* Firefox */
+	-ms-transform:scale(1,2); /* IE 9 */
+	-o-transform:scale(1,2); /* Opera */
+	/* Rest Of CSS Code Here*/
+
+}
+
+.curve-word{
+	font-weight: bold;
+	/*margin-left: 40%;*/
+
+	font-size: 35px;
+	transform:scale(1,2); /* W3C */
+	-webkit-transform:scale(1,2); /* Safari and Chrome */
+	-moz-transform:scale(1,2); /* Firefox */
+	-ms-transform:scale(1,2); /* IE 9 */
+	-o-transform:scale(1,2); /* Opera */
+	/* Rest Of CSS Code Here*/	
+	padding-top: 14%;
+	color: #b4c6ee;
+	letter-spacing: 16px;	
+}
+
+.politics{
+    font-size: 20px;
+    margin-top: -30px;
+    position: absolute;
+    right: 10%;
+    width: 10%;
+}
+
+.wired-live{
+	color: #3d5791;
+	font-size: 20px;
+	padding-top: 50px;
+	letter-spacing: 2px;
+}
+
+.break-up{
+	color: #b4c6ee;
+	padding-top: 10%;
+	font-size: 18px;
+}
+.men-fashion{
+	float: right;
+}
+
+
 
 #home-slider {
 	position: relative;
