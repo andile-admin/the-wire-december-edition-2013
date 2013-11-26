@@ -242,6 +242,10 @@ h3.spec {
     text-transform: uppercase;
 }
 
+.img-rating{
+	width: 50%;
+}
+
 
 /* ==================================================
    Margin Bottom Sets
@@ -287,9 +291,21 @@ h3.spec {
 	margin-bottom:80px !important;
 }
 
+/*==================================================
+	Spacing 
+===================================================*/
+.spacing01{
+	margin-bottom: 100px;
+}
+
+
 /* ==================================================
    Home Slider
 ================================================== */
+
+.left-articles{
+	font-family: arial;
+}
 
 .top-section{}
 
@@ -303,9 +319,9 @@ h3.spec {
     width: 10%;
     margin-right: 10px;
 }
-//articles
+
 .articles{
-    padding-top: 20%;
+    /*padding-top: 20%;*/
 }
 
 .women-fashion, .men-fashion{
@@ -313,8 +329,66 @@ h3.spec {
     font-size:34px ;
     color: #b4c6ee;
 }
-.heating-up{
+.heating-up, .the-hotbox{
+	color: #3d5791;
+	font-family: arial;
+	font-size: 20px;
     
+}
+.the-hotbox{
+	color: #3d5791;
+	font-family: arial;
+	font-size: 20px;
+}
+
+.hotbox-word{
+	color: #3d5791;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.game-puppeteer{
+	color: #b4c6ee;
+	font-family: arial;
+	font-size: 19.01px;
+}
+
+.african-boom{
+	color: #106568;
+	font-size: 20px;	
+}
+.motor-show{
+
+	color: #5dd0b1;
+	font-style: italic;
+	font-size: 60px;
+}
+
+.right-articles{
+	font-family: arial;
+}
+
+.pes-review, .pro-evo{
+	color: #106568;
+}
+
+.pes-review{
+	font-size: 20px;
+	padding-top: 10%;
+}
+
+.pro-evo{
+	float: right;
+	padding-top: 2%;
+	font-size: 11px
+}
+
+.curve-politics{
+	color: #b4c6ee;
+	font-family: arial;
+	padding-top: 30%;
 }
 
 
@@ -904,10 +978,10 @@ nav#menu #menu-nav li a:hover {
 .break-line{
 	background: #CB4212;
 	height: 8px;
-        position: absolute;
-        right: 0;
-        top: 8.8%;
-        width: 17.33%;
+    position: absolute;
+    right: 0;
+    top: 7.9%;
+    width: 32.33%;
 }
 
 .articles{
@@ -940,6 +1014,8 @@ nav#menu #menu-nav li a:hover {
 	background-size: cover;
     position: relative;
     width: 100%;
+    background-color: #000;
+    height: 100%;
 }
 
 .pupeteer-content{
@@ -1037,6 +1113,7 @@ nav#menu #menu-nav li a:hover {
       width: 100%;
       position: absolute;
       /*height: 100%;*/
+      padding-bottom: 50px;
     }
     .urbancharts_head{
       width: 100%;
@@ -1230,6 +1307,53 @@ nav#menu #menu-nav li a:hover {
         margin-top: 15px;
     }
 }
+
+
+/*==================================================
+ 	Rewired Page
+===================================================*/
+.rewired-heading{
+	margin-left: 14%;
+    padding-top: 2%;
+    color: #2c0298;
+	font-size: 40px;
+	font-family: arial;
+	display:inline-block;
+	transform:scale(2,3); /* W3C */
+	-webkit-transform:scale(2,3); /* Safari and Chrome */
+	-moz-transform:scale(2,3); /* Firefox */
+	-ms-transform:scale(2,3); /* IE 9 */
+	-o-transform:scale(2,3); /* Opera */
+	/* Rest Of CSS Code Here*/
+}
+
+.heading-wire{
+	color: #4d0d42;
+	transform:scale(1,2); /* W3C */
+	-webkit-transform:scale(1,2); /* Safari and Chrome */
+	-moz-transform:scale(1,2); /* Firefox */
+	-ms-transform:scale(1,2); /* IE 9 */
+	-o-transform:scale(1,2); /* Opera */
+}
+
+.rewired-content{
+	position: absolute;
+	padding-top: 6%;
+	font-family: arial;
+	font-size: 18px;
+	color: #0d002d;
+	float: left;
+	width: 70%;
+	padding-left: 2%;
+	line-height: 41.07px;
+	letter-spacing: 2px;
+}
+
+.wire-images{
+	position: absolute;
+	padding-top: 2%;
+}
+
 
 
 /* ==================================================
