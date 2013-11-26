@@ -562,7 +562,7 @@ nav#menu #menu-nav {
 nav#menu #menu-nav li {
 	list-style: none;
 	display: inline-block;
-	margin-left: 50px;	
+	margin-left: 10px;	
 }
 
 nav#menu #menu-nav li:first-child {
@@ -904,19 +904,19 @@ nav#menu #menu-nav li a:hover {
 .break-line{
 	background: #CB4212;
 	height: 8px;
-    position: absolute;
-    right: 0;
-    top: 8.1%;
-    width: 33%;
+        position: absolute;
+        right: 0;
+        top: 8.8%;
+        width: 17.33%;
 }
 
 .articles{
-	color: #000000;
+    color: #000000;
     font-family: arial;
     font-size: 14px;
     padding-left: 6%;
     position: absolute;
-    top: 10%;
+    top: 14%;
     line-height: 20px;
     width: 90%;
 }
@@ -1020,6 +1020,218 @@ nav#menu #menu-nav li a:hover {
 	letter-spacing: 105;
 	
 }
+
+/*===============================================
+    URBAN CHATS
+==================================================*/
+  .urban_charts{
+      /*background:#361111 url("../images/charts_bg.jpg");*/
+      background-color: #361111;
+      padding: 0;
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      position: absolute;
+      /*height: 100%;*/
+    }
+    .urbancharts_head{
+      width: 100%;
+      height: 10%;
+    }
+    .urbancharts_head h2{
+      color: #ed2225;
+      /*font-family: 'bebasregular';*/
+      font-size: 66px;
+      text-shadow: 0 2px 1px #FFFFFF;
+      padding-top: 15px;
+    }
+    .the_charts{
+      width: 100%;
+      height: 100%;
+    }
+    .each_track{
+      min-height: 330px;
+      width: 20%;
+      float: left;
+      height: 100%;
+      position: relative;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      cursor: pointer;
+    }
+    .each_track .initial{
+      text-align: center;
+      vertical-align: middle;
+      font-size: 150px;
+      padding-top: 50%;
+      padding-bottom: 0;
+      font-family: 'bebasregular';
+      height: 100%;
+    }
+    .each_track .initial{
+      display: block;
+    }
+    .one_to_five{
+      width: 99.5%;
+      height: 50%;
+      float: left;
+    }
+    .six_to_ten{
+      width: 99.5%;
+      height: 50%;
+      float: left;
+    }
+    .each_track.one{
+      background: #ed2024;
+      color: #fff;
+    }
+    .each_track.two{
+      background: #000000;
+      color: #ed2024;
+    }
+     .each_track.three{
+      background: #fff;
+      color: #000;
+    }
+    .each_track.four{
+      background: #000000;
+      color: #ed2024;
+    }
+     .each_track.five{
+      background: #ed2024;
+      color: #fff;
+    }
+    .each_track.six{
+      background: #fff;
+      color: #000;
+    }
+     .each_track.seven{
+      background: #ed2024;
+      color: #fff;
+    }
+    .each_track.eight{
+      background: #000000;
+      color: #ed2024;
+    }
+     .each_track.nine{
+      background: #ed2024;
+      color: #fff;
+    }
+    .each_track.ten{
+      background: #fff;
+      color: #000;
+    }
+    .track_info{
+      display: none;
+    }
+    .track_info img{
+      width: 100%;
+    }
+    .track_info h4{
+      line-height: 50px;
+        font-size: 32px;
+        text-align: center;
+
+    }
+    .track_info p{
+      font-size: 16px;
+      line-height: 20px;
+    }
+    p.urban_subtitle{
+        margin-top:40px; 
+        font-size:21px; 
+        text-shadow: 0 2px 1px #ED2225;
+    }
+    @media screen and  (max-width: 900px) and (min-width: 500px) {
+    /*  .track_info{
+      display: block;
+    }
+    .each_track .initial{
+      display: none;
+    }*/
+    .urbancharts_head .col-md-5{
+      float: left;
+    }
+    .one_to_five{
+      height: 40%;
+    }
+    .six_to_ten{
+      height: 40%;
+    }
+    .one_to_five{
+      width: 97.5%;
+      height: 50%;
+      float: left;
+      margin: 5% 0;
+    }
+    .six_to_ten{
+      width: 97.5%;
+      height: 50%;
+      float: left;
+      margin: 5% 0;
+    }
+    }
+    @media screen and  (max-width: 500px) and (min-width: 200px) {
+
+        .one_to_five{
+        width: 97.5%;
+        height: auto;
+        float: left;
+    }
+    .six_to_ten{
+        width: 97.5%;
+        height: auto;
+        float: left;
+    }
+    .each_track{
+        width: 96%;
+        float: left;
+        height: 100%;
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        cursor: pointer;
+        margin-left:2%; 
+    }
+    .each_track .initial{
+        text-align: center;
+        vertical-align: middle;
+        font-size: 150px;
+        padding-top: 30%;
+        padding-bottom: 30%;
+        font-family: 'bebasregular';
+        height: 100%;
+    }
+    .urbancharts_head h2 {
+        color: #ED2225;
+        font-family: 'bebasregular';
+        font-size: 18px;
+        text-shadow: 0 2px 1px #FFFFFF;
+    }
+    .urbancharts_head {
+        height: auto;
+        margin-top: 5px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    p.urban_subtitle{
+        font-size: 15px;
+        line-height: 16px;
+        margin-top: -5px;
+        text-shadow: 0 2px 1px #ED2225;
+    }
+    .the_charts{
+        margin-top: 15px;
+    }
+}
+
+
 /* ==================================================
    Section Page
 ================================================== */
