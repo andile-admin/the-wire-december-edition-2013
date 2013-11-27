@@ -324,12 +324,12 @@ h3.spec {
     /*padding-top: 20%;*/
 }
 
-.women-fashion, .men-fashion{
+.women-fashion, .men-fashion > a{
     font-family: arial;
     font-size:34px ;
     color: #b4c6ee;
 }
-.heating-up, .the-hotbox{
+.heating-up, .the-hotbox > a {
 	color: #3d5791;
 	font-family: arial;
 	font-size: 20px;
@@ -341,7 +341,7 @@ h3.spec {
 	font-size: 20px;
 }
 
-.hotbox-word{
+.hotbox-word > a{
 	color: #3d5791;
 	font-weight: bold;
 	font-family: arial;
@@ -349,17 +349,17 @@ h3.spec {
 	letter-spacing: 2px;
 }
 
-.game-puppeteer{
+.game-puppeteer > a{
 	color: #b4c6ee;
 	font-family: arial;
 	font-size: 19.01px;
 }
 
-.african-boom{
+.african-boom > a{
 	color: #106568;
 	font-size: 20px;	
 }
-.motor-show{
+.motor-show > a{
 
 	color: #5dd0b1;
 	font-style: italic;
@@ -370,7 +370,7 @@ h3.spec {
 	font-family: arial;
 }
 
-.pes-review, .pro-evo{
+.pes-review, .pro-evo > a{
 	color: #106568;
 }
 
@@ -385,7 +385,9 @@ h3.spec {
 	font-size: 11px
 }
 
-.curve-politics{
+.curve-politics{padding-top: 20%;}
+
+.curve-politics > a{
 	color: #b4c6ee;
 	font-family: arial;
 	padding-top: 20%;
@@ -422,12 +424,13 @@ h3.spec {
 	letter-spacing: 16px;	
 }
 
+
 .politics{
     font-size: 20px;
     margin-top: -35px;
     position: absolute;
-    right: 12%;
-    width: 14%;
+    right: 10%;
+    width: 10%;
 }
 
 .wired-live{
@@ -437,7 +440,20 @@ h3.spec {
 	letter-spacing: 2px;
 }
 
+.wired-live > a{
+	color: #3d5791;
+	font-size: 20px;
+	padding-top: 50px;
+	letter-spacing: 2px;
+}
+
 .break-up{
+	color: #b4c6ee;
+	padding-top: 10%;
+	font-size: 18px;
+}
+
+.break-up > a{
 	color: #b4c6ee;
 	padding-top: 10%;
 	font-size: 18px;
@@ -832,12 +848,18 @@ nav#menu #menu-nav li a:hover {
    African Boombox Page
 ================================================== */
 .boombox-background{
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative; 
-    width: 100%;
+	height: 100%;
+    background: rgb(255,255,255); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI0MSUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYWVkNmY5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 41%, rgba(174,214,249,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(41%,rgba(255,255,255,1)), color-stop(100%,rgba(174,214,249,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 41%,rgba(174,214,249,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 41%,rgba(174,214,249,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 41%,rgba(174,214,249,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 41%,rgba(174,214,249,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#aed6f9',GradientType=0 ); /* IE6-8 */
+
 }
 
 .boombox-title{
@@ -856,7 +878,7 @@ nav#menu #menu-nav li a:hover {
 
 .african-box{
     position: absolute;
-    top: 14%;
+    top: 16%;
     /*width: 90%;*/
 }
 
@@ -889,7 +911,8 @@ nav#menu #menu-nav li a:hover {
     font-size: 12px;
 }
 
-.anemija{
+.anemija > img{
+	width: 75%;
     
 }
 
@@ -1004,6 +1027,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .heating-end-line{
+	margin-top: 26px;
 	width: 100%;
     height: 10px;
     background: #005e20;
@@ -1013,23 +1037,19 @@ nav#menu #menu-nav li a:hover {
    Breaking Page
 ================================================== */
 
-.heating-background{
-    /*background-size: cover;*/
-    position: relative;
-    width: 100%;
+.breaking-background{
+	height: 100%;
+	background: rgb(255,255,255); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1NiUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI3NCUiIHN0b3AtY29sb3I9IiNmZmY5ZjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZTU1YjJiIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YwNzE0NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 56%, rgba(255,249,249,1) 74%, rgba(229,91,43,1) 100%, rgba(240,113,70,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(56%,rgba(255,255,255,1)), color-stop(74%,rgba(255,249,249,1)), color-stop(100%,rgba(229,91,43,1)), color-stop(100%,rgba(240,113,70,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 56%,rgba(255,249,249,1) 74%,rgba(229,91,43,1) 100%,rgba(240,113,70,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 56%,rgba(255,249,249,1) 74%,rgba(229,91,43,1) 100%,rgba(240,113,70,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 56%,rgba(255,249,249,1) 74%,rgba(229,91,43,1) 100%,rgba(240,113,70,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 56%,rgba(255,249,249,1) 74%,rgba(229,91,43,1) 100%,rgba(240,113,70,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f07146',GradientType=0 ); /* IE6-8 */
     
-    background: rgb(255,255,255); /* Old browsers */
-    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI0NyUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5MCUiIHN0b3AtY29sb3I9IiNmMDcxNDYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 47%, rgba(240,113,70,1) 90%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(47%,rgba(255,255,255,1)), color-stop(90%,rgba(240,113,70,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 47%,rgba(240,113,70,1) 90%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  rgba(255,255,255,1) 47%,rgba(240,113,70,1) 90%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 47%,rgba(240,113,70,1) 90%); /* IE10+ */
-    background: linear-gradient(to bottom,  rgba(255,255,255,1) 47%,rgba(240,113,70,1) 90%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f07146',GradientType=0 ); /* IE6-8 */
-
-
 }
 
 
@@ -1049,8 +1069,8 @@ nav#menu #menu-nav li a:hover {
     height: 8px;
     position: absolute;
     right: 0;
-    top: 92px;//was13.9%;
-    width: 234px;//was32.33%;
+    top: 100px;/*was13.9%;*/
+    width: 32%;/*was32.33%;*/
 }
 
 .articles{
@@ -1059,7 +1079,7 @@ nav#menu #menu-nav li a:hover {
     font-size: 14px;
     padding-left: 6%;
     position: absolute;
-    top: 20%;
+    margin-top: 8%;
     line-height: 20px;
     width: 90%;
 }
@@ -1172,11 +1192,22 @@ nav#menu #menu-nav li a:hover {
     
     width: 100%;
 }
-.spacer05{padding-top: 10%;}
+.spacer05{padding-top: 8%;}
 
 .lW { float: left; clear: left; height: 15px; }
 .rW { float: right; clear: right; height: 15px; }
 
+.mW{text-align: center; margin: 0 auto; height: 15px; clear: both;}
+ 
+.lW, .rW, .mW{padding: 14px;}
+
+.spacer02{margin-top: 30px;}
+
+.end-curve-line{
+	width: 100%;
+    height: 10px;
+    background: #e8c9fd;
+}
 
 /* ==================================================
    Yired Page
@@ -1438,7 +1469,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .rewired-content{
-	position: absolute;
+	position: relative;
 	padding-top: 6%;
 	font-family: arial;
 	font-size: 18px;
@@ -1450,12 +1481,24 @@ nav#menu #menu-nav li a:hover {
 	letter-spacing: 2px;
 }
 
-.wire-images{
+.wire-images1{
 	position: absolute;
 	padding-top: 2%;
 }
 
+.wire-container{width: 90%; margin: 0 auto;}
 
+.wire01, .wire03, .wire04 > img{
+	width: 50%;
+	float: left;
+	padding: 10px;
+
+}
+
+.wire02 > img{
+	float: right;
+    width: 50%;
+}
 
 /* ==================================================
    Section Page
