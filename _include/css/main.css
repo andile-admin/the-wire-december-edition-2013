@@ -380,7 +380,7 @@ h3.spec {
 }
 
 .pro-evo{
-	float: right;
+	/*float: right;*/
 	padding-top: 2%;
 	font-size: 11px
 }
@@ -388,7 +388,7 @@ h3.spec {
 .curve-politics{
 	color: #b4c6ee;
 	font-family: arial;
-	padding-top: 30%;
+	padding-top: 20%;
 }
 
 .big-curve{
@@ -396,7 +396,7 @@ h3.spec {
 	color: #b4c6ee;
 	font-weight: bold;
 	font-size: 35px;
-	margin-right: 40%;
+	margin-right: 130px;
 	transform:scale(1,2); /* W3C */
 	-webkit-transform:scale(1,2); /* Safari and Chrome */
 	-moz-transform:scale(1,2); /* Firefox */
@@ -417,17 +417,17 @@ h3.spec {
 	-ms-transform:scale(1,2); /* IE 9 */
 	-o-transform:scale(1,2); /* Opera */
 	/* Rest Of CSS Code Here*/	
-	padding-top: 14%;
+	padding-top: 8%;
 	color: #b4c6ee;
 	letter-spacing: 16px;	
 }
 
 .politics{
     font-size: 20px;
-    margin-top: -30px;
+    margin-top: -35px;
     position: absolute;
-    right: 10%;
-    width: 10%;
+    right: 12%;
+    width: 14%;
 }
 
 .wired-live{
@@ -443,7 +443,7 @@ h3.spec {
 	font-size: 18px;
 }
 .men-fashion{
-	float: right;
+	/*float: right;*/
 }
 
 
@@ -636,7 +636,7 @@ header {
 header .sticky-nav {
 	position: relative;
 	width: 100%;
-	height: 60px;
+	height: 50px;
 	background: #000;
 	z-index: 1001;
 	
@@ -1014,9 +1014,22 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .heating-background{
-	background-size: cover;
+    /*background-size: cover;*/
     position: relative;
     width: 100%;
+    
+    background: rgb(255,255,255); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI0NyUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5MCUiIHN0b3AtY29sb3I9IiNmMDcxNDYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 47%, rgba(240,113,70,1) 90%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(47%,rgba(255,255,255,1)), color-stop(90%,rgba(240,113,70,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 47%,rgba(240,113,70,1) 90%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,255,255,1) 47%,rgba(240,113,70,1) 90%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 47%,rgba(240,113,70,1) 90%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 47%,rgba(240,113,70,1) 90%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f07146',GradientType=0 ); /* IE6-8 */
+
+
 }
 
 
@@ -1032,12 +1045,12 @@ nav#menu #menu-nav li a:hover {
 }
 
 .break-line{
-	background: #CB4212;
-	height: 8px;
+    background: #CB4212;
+    height: 8px;
     position: absolute;
     right: 0;
-    top: 7.9%;
-    width: 32.33%;
+    top: 92px;//was13.9%;
+    width: 234px;//was32.33%;
 }
 
 .articles{
@@ -1046,7 +1059,7 @@ nav#menu #menu-nav li a:hover {
     font-size: 14px;
     padding-left: 6%;
     position: absolute;
-    top: 14%;
+    top: 20%;
     line-height: 20px;
     width: 90%;
 }
@@ -1076,7 +1089,7 @@ nav#menu #menu-nav li a:hover {
 
 .pupeteer-content{
 	position: absolute;
-	top: 10%;
+	top: 4%;
 }
 .pupeteer-left {
 	color: #240000;
@@ -1107,9 +1120,18 @@ nav#menu #menu-nav li a:hover {
    PES Page
 ================================================== */
 .pes-background{
-	background-size: cover;
+    /*background-size: cover;
     position: relative;
-    width: 100%;
+    width: 100%;*/
+    background: #fcfff4; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fcfff4 0%, #dfe5d7 40%, #b3bead 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfff4), color-stop(40%,#dfe5d7), color-stop(100%,#b3bead)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 ); /* IE6-9 */
+
 }
 
 .pes-content{
@@ -1121,16 +1143,39 @@ nav#menu #menu-nav li a:hover {
 
 }
 
+.ball-pes{
+    /*width: 60%;*/
+}
+.rating-pes{
+    /*width: 60%;  */ 
+}
 
+.pes-text{
+    line-height: 31px;
+    font-family: arial;
+    font-size: 16px;
+    color: #010000;
+}
+
+.pes-line{
+    width: 100%;
+    height: 10px;
+    background: #a90101;
+}
 /* ==================================================
    Curve Page
 ================================================== */
 
 .curve-background{
-	background-size: cover;
+    background-size: cover;
     position: relative;
+    
     width: 100%;
 }
+.spacer05{padding-top: 10%;}
+
+.lW { float: left; clear: left; height: 15px; }
+.rW { float: right; clear: right; height: 15px; }
 
 
 /* ==================================================
